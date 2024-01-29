@@ -1,0 +1,18 @@
+{
+    categories: [
+        {
+            id,
+            title,
+            image,
+        }
+    ],
+    items: [
+        id,
+        title: DataTypes.TEXT,
+        price: DataTypes.INTEGER,
+        discont_price: DataTypes.INTEGER,
+        description: DataTypes.TEXT,
+        image: DataTypes.TEXT,
+    ],
+    cart: []
+}
